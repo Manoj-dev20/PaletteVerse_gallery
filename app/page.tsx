@@ -8,9 +8,9 @@ const pencilSketches = [
 ]
 
 const photographyA = [
-  { imageQuery: "studio still life pastel gourd minimal", title: "Absence, Presence", artist: "Simone Lee" },
-  { imageQuery: "black sculpture ring linked hands", title: "Turbulent Flow", artist: "Kellen Vargas" },
-  { imageQuery: "colorful toys foam shapes macro", title: "Electric Bloom", artist: "Zane Wilder" },
+  { imageSrc: "/images/pencil/Image.png", title: "Absence, Presence", artist: "Simone Lee" },
+  { imageSrc: "/images/pencil/Image.png", title: "Turbulent Flow", artist: "Kellen Vargas" },
+  { imageSrc: "/images/pencil/Image.png", title: "Electric Bloom", artist: "Zane Wilder" },
 ]
 
 const photographyB = [
