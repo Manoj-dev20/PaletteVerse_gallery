@@ -2,9 +2,9 @@ import Header from "@/components/header"
 import GallerySection from "@/components/gallery-section"
 
 const pencilSketches = [
-  { imageSrc: "/images/pencil/portrait-prayer.jpg", title: "Portrait Study I", artist: "Pencil Sketch" },
-  { imageSrc: "/images/pencil/ornate-attire.jpg", title: "Portrait Study II", artist: "Pencil Sketch" },
-  { imageSrc: "/images/pencil/smiling-portrait.jpg", title: "Portrait Study III", artist: "Pencil Sketch" },
+  { imageSrc: "/images/pencil/portrait-prayer.jpg", title: "Rukmini Vasanth", artist: "Manoj" },
+  { imageSrc: "/images/pencil/ornate-attire.jpg", title: "Kalyani", artist: "Manu" },
+  { imageSrc: "/images/pencil/smiling-portrait.jpg", title: "Pooja Hegde", artist: "Bharadwaj" },
 ]
 
 const photographyA = [
@@ -24,8 +24,8 @@ export default function Page() {
     <main style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <GallerySection heading="Pencil Sketches" items={pencilSketches} />
-      <GallerySection heading="Photography A" items={photographyA} />
-      <GallerySection heading="Photography B" items={photographyB} />
+      <GallerySection heading="Paintings" items={photographyA} />
+      <GallerySection heading="Digital Art" items={photographyB} />
       <div className="pb-16" />
     </main>
   )
