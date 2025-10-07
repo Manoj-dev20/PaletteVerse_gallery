@@ -14,7 +14,7 @@ export default function GallerySection({ heading, items }: GallerySectionProps) 
         <h2 className="text-pretty text-2xl font-semibold tracking-tight" style={{ color: "#1e1e1e" }}>
           {heading}
         </h2>
-        <Link href="#" className="text-sm transition-opacity hover:opacity-80" style={{ color: "#193af6" }}>
+        <Link href="https://gallery-ind.vercel.app/" className="text-sm transition-opacity hover:opacity-80" style={{ color: "#193af6" }}>
           See more
         </Link>
       </div>
